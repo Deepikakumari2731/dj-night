@@ -1,0 +1,60 @@
+*{padding: 0px;
+margin: 0px;}
+
+body>header{
+color: rgb(21, 19, 19);
+padding: 0px;
+margin: 0px;
+background-size: cover;
+height: 5vh;
+border: solid yellow;
+font-size: larger;
+font-weight: bold;
+animation: animation ease-in-out 2s infinity forward;
+}
+@keyframes animation{from{width: 5vh;}to{width: 100vw;}}
+.header{background-color: chartreuse;
+margin: 0px;padding: 0px;}
+.cut{height:55vh;
+    width: 100vw;}
+    .cut>img{height: 55vh;
+    width: 100vw;}
+.festo{list-style-type: none;}
+
+.festo>ul>li{display: inline;
+list-style: none;
+margin-left: 160px;
+font-weight: bolder;
+}
+.festo>ul{background-color: lightseagreen;
+padding: 0px;
+margin: 0px;
+background-size: cover;
+border: solid rgb(43, 192, 226);
+text-align: center;
+font-size: larger;}
+
+.container2{background-image: url(/images2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 90vh;
+    width: 100vw;}
+.container2>h1{font-size: larger;font-family: 'Times New Roman', Times, serif; color: azure;
+}
+.container2>h2{font-size: larger;font-family: 'Times New Roman', Times, serif; color: azure;
+}
+.container2>h5{font-family: 'Times New Roman', Times, serif; color: azure;
+}
+.container2>h4{font-family: 'Times New Roman', Times, serif; color: azure;
+}
+.container2>.imm{margin-left: 999px;
+height: 50vh;
+width: 38vw;}
+.container2>.button2{background-color: black; color: beige;
+height: 110px;
+width: 60px;
+box-shadow: blanchedalmond;
+}
+.container2>button{transition: ease-out;transition-duration: initial;transition-property: none;
+background-color: black;
+color: beige;}
